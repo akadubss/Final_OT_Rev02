@@ -159,6 +159,7 @@
     @media (min-width: 35.5rem) {
         .Hero_Title {
             font-size: 5.5rem;
+            padding-top: 2em;
         }
         .Training h1 {
             padding-top: 2.5em;
@@ -434,6 +435,8 @@
     }
     
     @media only screen and (min-width: 35.5rem) and (orientation: landscape) {
+        
+        
         .trainingDesc {
             padding-top: 10em;
         }
