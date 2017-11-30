@@ -538,10 +538,10 @@
     .theEquipment_Hero {
         height: 100vh;
         background-image: url(../img/gymOnly03.jpg);
-        background-attachment: 100% 100%;
+        background-attachment: fixed;
         background-position: relative;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100% 100%;
     }
     
     .About_Equipment {
