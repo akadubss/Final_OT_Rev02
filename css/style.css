@@ -340,7 +340,9 @@
             font-weight: 200;
         }
     }
-
+    /*==================================*/
+    /*============Home Hero=============*/
+    /*==================================*/
     
     .home-hero {
         background-image: url(../img/Aaron_Landing.jpg);
@@ -351,7 +353,6 @@
         background-position: center;
         height: 100vh;
         justify-content: center;
-
     }
     
     @media only screen and (min-width: 23.4rem) {
@@ -364,40 +365,28 @@
         .home-hero {
             padding-top: 25em;
         }
-
-
     }
-        @media only screen and (min-width: 23.4rem) {
-        .home-hero {
-            padding-top: 24em;
-        }
-    }
-
-
-    @media only screen and (min-width: 23.4rem) and (orientation: landscape) {
-        .home-hero {
-            padding-top: 25em;
-        }
-    }
-
+    
     @media only screen and (min-width: 35.5rem) and (orientation: landscape) {
         .home-hero {
             padding-top: 10em;
         }
     }
-
+    
     @media only screen and (min-width: 40rem) and (orientation: landscape) {
         .home-hero {
             padding-top: 12em;
         }
     }
-
+    
     @media only screen and (min-width: 64rem) and (orientation: landscape) {
         .home-hero {
             padding-top: 25em;
         }
     }
-
+    /*==================================*/
+    /*============About Hero============*/
+    /*==================================*/
     /*this is for the background photo inside p1*/
     
     .About-Hero p1 {
@@ -474,6 +463,12 @@
         padding-top: 8em;
     }
     
+    @media only screen and (min-width: 35.5rem) and (orientation: landscape) {
+        .Training  {
+            background-attachment: initial;
+        }
+    }
+
     @media only screen and (min-width: 35.5rem) and (orientation: landscape) {
         .trainingDesc {
             padding-top: 10em;
