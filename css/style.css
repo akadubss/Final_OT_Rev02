@@ -29,6 +29,10 @@
         background-color: black;
         width: 100%;
         height: 100%;
+         background-attachment: fixed; //for web and supported mobile devices
+         background-repeat: no-repeat; //
+         background-size: cover; // for iphone devices
+    color: #f
     }
     
     .container {
@@ -432,7 +436,7 @@
         background-attachment: fixed;
         background-position: relative;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100% 100%;
         
     }
     
@@ -537,10 +541,7 @@
         background-attachment: fixed;
         background-position: relative;
         background-repeat: no-repeat;
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+        background-size: 100% 100%;
     }
     
     .About_Equipment {
@@ -563,7 +564,7 @@
         height: 100vh;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100% 100%;
     }
     /*==================================
 /*============Footer=========
