@@ -432,11 +432,10 @@
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: auto;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: cover;
     }
     
     .Training-Port {
@@ -463,7 +462,8 @@
         padding-top: 8em;
     }
     
-    @media only screen and (min-width: 35.5rem) and (orientation: landscape) {
+    @media only screen and (min-width: 35.5rem){
+        
         .Training  {
             background-attachment: initial;
         }
