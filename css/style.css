@@ -462,13 +462,15 @@
         padding-top: 8em;
     }
     
-    @media only screen and (min-width: 35.5rem){
-        
-        .theEquipment_Hero .Training  {
+    @media only screen and (min-width: 35.5rem) {
+        .Training {
+            background-attachment: initial;
+        }
+        .theEquipment_Hero {
             background-attachment: initial;
         }
     }
-
+    
     @media only screen and (min-width: 35.5rem) and (orientation: landscape) {
         .trainingDesc {
             padding-top: 10em;
