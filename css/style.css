@@ -432,10 +432,8 @@
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: auto;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+        background-size: cover;
+        overflow: scroll;
     }
     
     .Training-Port {
@@ -541,7 +539,7 @@
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
