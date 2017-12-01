@@ -19,10 +19,10 @@ $(document).ready(function () {
     var slideParallaxScene = new ScrollMagic.Scene({
             triggerElement: '.equipment-parallax',
             triggerHook: 1,
-            duration: '200%'
+            duration: '100%'
         })
         .setTween(TweenMax.from('.equipment', 1, {
-            y: '-80%',
+            y: '-95%',
             ease: Power0.easeNone
         }))
         .addTo(controller);
