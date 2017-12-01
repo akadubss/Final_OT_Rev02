@@ -29,10 +29,10 @@
         background-color: black;
         width: 100%;
         height: 100%;
-         background-attachment: fixed; //for web and supported mobile devices
-         background-repeat: no-repeat; //
-         background-size: cover; // for iphone devices
-    color: #f
+        background-attachment: fixed; //for web and supported mobile devices
+        background-repeat: no-repeat; //
+        background-size: cover; // for iphone devices
+        color: #f
     }
     
     .container {
@@ -426,18 +426,36 @@
             padding-top: 4em;
         }
     }
-    /*==================================
-/*==========Training Grounds========
-/*==================================*/
+    /*==================================*/
+    /*==========Training Grounds========*/
+    /*==================================*/
     
-    .Training {
-        height: 100vh;
-        background: url(../img/Aaron_Hero.jpg);
-        background-attachment: fixed;
-        background-position: relative;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        
+    .training-parallax {
+        padding: 20em 0;
+        color: #fff;
+        background-color: #000;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .training {
+        background: url(../img/Aaron_Hero.jpg) no-repeat;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 190%;
+        top: 0;
+        z-index: 1;
+        opacity: 0.7;
+    }
+    
+    .content-wrap {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1140px;
+        position: relative;
+        z-index: 2;
     }
     
     .Training-Port {
@@ -464,9 +482,25 @@
         padding-top: 8em;
     }
     
-    @media only screen and (min-width: 35.5rem) {
-
+    @media (min-width: 22rem) {
+        .training-parallax {
+            padding: 5em 0;
+        }
     }
+    
+
+    @media (min-width: 60rem) {
+        .training-parallax {
+            padding: 12em 0;
+        }
+    }
+    
+    @media (min-width: 70rem) {
+        .training-parallax {
+            padding: 20em 0;
+        }
+    }
+
     
     @media only screen and (min-width: 35.5rem) and (orientation: landscape) {
         .trainingDesc {
@@ -474,11 +508,6 @@
         }
     }
     
-    @media only screen and (min-width: 41.6rem) and (orientation: landscape) {
-        .trainingDesc {
-            padding-top: 4.8em;
-        }
-    }
     
     @media (min-width: 40rem) {
         .Training-Port img {
@@ -494,6 +523,7 @@
     }
     
     @media only screen and (min-width: 41.6rem) and (orientation: landscape) {
+  
         .trainingDesc {
             padding-top: 4.8em;
         }
@@ -531,9 +561,33 @@
             padding-top: 10em;
         }
     }
- /*==================================*/
-/*============The Equipment=========*/
-/*==================================*/
+    /*==================================*/
+    /*============The Equipment=========*/
+    /*==================================*/
+
+    .equipment-parallax {
+        padding: 20em 0;
+        color: #fff;
+        background-color: #000;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .equipment {
+        background: url(../img/gymOnly03.jpg)  no-repeat;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 150%;
+        top: 0;
+        z-index: 1;
+        opacity: 0.65;
+    }
+
+
+
+
     
     .theEquipment_Hero {
         height: 100vh;
@@ -550,9 +604,7 @@
     }
     
     @media only screen and (min-width: 35.5rem) {
-        .theEquipment_Hero {
-           
-        }
+        .theEquipment_Hero {}
     }
     /*==================================
 /*============About Closing=========
